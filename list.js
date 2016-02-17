@@ -12,6 +12,7 @@
         todo: document.getElementById('todo'),
         done: document.getElementById('done')
     };
+    console.log(input);
 
     /**
      * @param {string} str
@@ -29,6 +30,8 @@
 
         element.appendChild(checkbox);
         element.appendChild(label);
+
+       // checkbox.getElementById('input').style.size = "20oem";
 
         return element;
     };
