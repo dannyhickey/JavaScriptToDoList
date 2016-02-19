@@ -35,9 +35,14 @@ ul
     width: 20em;
     height: 2em;
     background-color: cadetblue;
+    border-radius: 10px;
 }
 
-input
+#input
 {
     background: yellow;
+}
+
+.highlighted {
+    background-color:Red;
 }

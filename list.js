@@ -70,4 +70,19 @@
     });
 
     input.focus();
+
+    $(function() {
+        // jQuery as of 1.7 provides the universal "on" and "off" functions
+        $("#btn").on("mouseover mouseleave", highlight);
+       // $("#input").on("click", function(evt) {
+           // $("#input").off("mouseover mouseleave", highlight);
+           // $("#input").html("<p>You shut off the hover effect!</p>");
+       // });
+    });
+
+    function highlight(evt) {
+        $("#btn").toggleClass("highlighted");
+    }
+
+
 }());
