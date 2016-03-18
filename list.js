@@ -1,5 +1,5 @@
 /*
-@Author: Daniel Hickey
+@Author: Daniel Hickey February 2016
  */
 //Self invoking function to declare variables with local scope.
 (function() {
