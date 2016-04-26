@@ -1,0 +1,11 @@
+#container
+{
+	background: lightgray;
+	width: 400px;
+	margin: 0 auto;
+}
+
+ul
+{
+	list-style: none;
+}
