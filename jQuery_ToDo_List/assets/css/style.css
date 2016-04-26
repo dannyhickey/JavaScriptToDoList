@@ -9,3 +9,9 @@ ul
 {
 	list-style: none;
 }
+
+.completed
+{
+	color: gray;
+	text-decoration: line-through;
+}
