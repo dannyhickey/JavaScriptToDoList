@@ -72,3 +72,8 @@ input:focus
 	border: 3px solid  #C5C5DE;
 	outline: none;
 }
+
+.fa-plus-square-o
+{
+	float: right;
+}
