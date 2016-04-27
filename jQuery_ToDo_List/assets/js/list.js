@@ -3,6 +3,10 @@ $("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
 });
 
+$(".fa-plus-square-o").on("click", function(){
+	$("input[type='text']").fadeToggle(500);
+});
+
 //Click the X to delete.. will be using a fontawesome icon here later
 $("ul").on("click", "span", function(event)
 {
@@ -23,7 +27,6 @@ $("input[type='text']").keypress(function(event){
 		$("ul").append("<li><span><i class='fa fa-trash'></i></span> " + text + "</li>");//appending a new li child to the ul element with the input from "text"
 
 		$(this).val("");//sets the text input field with empty string
-
 
 	}
 });

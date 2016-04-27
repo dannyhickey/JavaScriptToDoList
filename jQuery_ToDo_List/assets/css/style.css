@@ -8,6 +8,7 @@
 
 li
 {
+	
 	background: white;
 	font-size: 20px;
 	background-color: #C5C5DE;
@@ -75,6 +76,7 @@ input:focus
 .fa-plus-square-o
 {
 	float: right;
+	cursor: pointer;
 }
 
 span
@@ -94,4 +96,5 @@ span:hover
 {
 	width: 40px;
 	color: white;
+	cursor: pointer;
 }
