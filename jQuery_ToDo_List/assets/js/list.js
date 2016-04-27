@@ -22,6 +22,10 @@ $("ul").on("click", "span", function(event)
 });
 
 
+/*$("input[type='text']").on("click", function(){
+	$(this).
+});*/
+
 $("input[type='text']").keypress(function(event){
 	if(event.which === 13)
 	{
