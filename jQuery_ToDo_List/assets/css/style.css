@@ -1,26 +1,9 @@
-#container
+body
 {
-	background: #C5C5DE;
-	width: 400px;
-	margin: 100px auto;
-	box-shadow: 0 0 10px rgba(0,0,0,5);
-}
-
-li
-{
-	
-	background: white;
-	font-size: 20px;
-	background-color: #C5C5DE;
-	height: 30px;
-	line-height: 30px;	
-	color: blue;
-
-}
-
-li:nth-child(2n)
-{
-	background-color: #EDE9AB;
+	font-family: 'Playball', cursive;
+	background: #7b4397; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #7b4397 , #dc2430); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #7b4397 , #dc2430); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 }
 
 ul
@@ -30,10 +13,16 @@ ul
 	padding: 0;
 }
 
-.completed
+li
 {
-	color: gray;
-	text-decoration: line-through;
+
+	background: white;
+	font-size: 20px;
+	background-color: #C5C5DE;
+	height: 30px;
+	line-height: 30px;	
+	color: blue;
+
 }
 
 h1
@@ -48,23 +37,56 @@ h1
 	font-weight: normal;
 }
 
-body
-{
-	font-family: 'Playball', cursive;
-	background: #7b4397; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #7b4397 , #dc2430); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #7b4397 , #dc2430); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-        
-}
 
-input {
+input 
+{
 	font-size: 30px;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
 	border: 3px solid rgba(0,0,0,0);
 }
+
+span
+{
+	text-align: center;
+	color: transparent;
+	background-color: #D48594;
+	height: 30px;
+	margin-right: 20px;
+	width: 0;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+span:hover
+{
+	width: 40px;
+	color: white;
+	cursor: pointer;
+}
+
+#container
+{
+	background: #C5C5DE;
+	width: 400px;
+	margin: 100px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,5);
+}
+
+
+li:nth-child(2n)
+{
+	background-color: #EDE9AB;
+}
+
+
+.completed
+{
+	color: gray;
+	text-decoration: line-through;
+}
+
 
 input:focus
 {
@@ -79,22 +101,5 @@ input:focus
 	cursor: pointer;
 }
 
-span
-{
-	text-align: center;
-	color: transparent;
-	background: red;
-	height: 30px;
-	margin-right: 20px;
-	width: 0;
-	display: inline-block;
-	transition: 0.5s;
-}
 
 
-span:hover
-{
-	width: 40px;
-	color: white;
-	cursor: pointer;
-}
