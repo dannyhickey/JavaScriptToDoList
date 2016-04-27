@@ -10,7 +10,7 @@ $("ul").on("click", "span", function(event)
 		$(this).remove();	//and the second "this" is removing the parent <li> element
 	});
 	//stop propagation: stopping the click event from bubbling up to 
-	//the other parent elements on the page preventing triggers for other events.
+	//the other parent elements on the page preventing triggers for other click events.
 	event.stopPropagation();
 });
 
